@@ -609,9 +609,10 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
-  flex-shrink: 0;
-  width: 100%;
+  flex-shrink: 1;
+  /* width: 100%; */
   max-width: 100%;
+  overflow-x: hidden;
   padding-right: calc(var(--bs-gutter-x) * 1.6);
   padding-left: calc(var(--bs-gutter-x) * 1.6);
   margin-top: var(--bs-gutter-y);
