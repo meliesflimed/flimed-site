@@ -610,9 +610,9 @@ progress {
 }
 .row > * {
   flex-shrink: 1;
-  /* width: 100%; */
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
   padding-right: calc(var(--bs-gutter-x) * 1.6);
   padding-left: calc(var(--bs-gutter-x) * 1.6);
   margin-top: var(--bs-gutter-y);
@@ -16722,6 +16722,7 @@ p {
   text-align: left;
   padding-top: 2rem;
   position: relative;
+  overflow-y: hidden;
 }
 .hero-1 .hero-container {
   position: relative;
